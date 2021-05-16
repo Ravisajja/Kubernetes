@@ -8,7 +8,7 @@ spec:
         - image: qualitythought/gameoflife:07112020
           name: gameoflife
           ports:
-            - containerport: 8080
+            - containerPort: 8080
               name: gol http
               protocol: Tcp
     
