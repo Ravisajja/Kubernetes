@@ -9,7 +9,7 @@ spec:
           name: gameoflife
           ports:
             - containerPort: 8080
-              name: gol http
-              protocol: Tcp
+              name: golhttp
+              protocol: TCP
     
 
