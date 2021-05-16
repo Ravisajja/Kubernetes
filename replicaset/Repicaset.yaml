@@ -14,9 +14,9 @@ spec:
             labels: 
                 app: gol
                 version: 07112020
-            spec:
-                containers:
-                    - image: qualitythought/gameoflife:07112020
-                      name: gol
-                      ports:
-                        - containerPort: 8080
+        spec:
+            containers:
+                - image: qualitythought/gameoflife:07112020
+                  name: gol
+                  ports:
+                    - containerPort: 8080
